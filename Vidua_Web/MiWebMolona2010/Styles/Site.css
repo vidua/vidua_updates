@@ -10,6 +10,11 @@ float: left;
 z-index:1;
 }
 
+#muestrado_peliculas
+{
+    margin-left:4%;
+}
+
 
  /**BOTON CSS *******************************************************/
 
@@ -480,6 +485,7 @@ height: 495px;
     float: left;
     height: 100%;
     width: 70%;
+    color:Black;
 }
 #caja2 column2
 {

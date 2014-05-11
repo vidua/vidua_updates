@@ -4,7 +4,16 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-             <h2>Películas:</h2>
+             <h2>Películas:
+             </h2>
+             <div id="muestrado_peliculas">
+             <h6>Mostrar por género :  <asp:DropDownList ID="DropDownList1" runat="server">
+             <asp:listitem value ="1"> Todos </asp:listitem >
+             <asp:listitem value ="2"> Terror </asp:listitem >
+             <asp:listitem value ="3"> Ciencia Ficción </asp:listitem >
+             <asp:listitem value ="4"> Acción </asp:listitem >
+                 </asp:DropDownList></h6>
+                 </div>
               <div id="separador"></div>
     </br></br>
              <div id ="container">

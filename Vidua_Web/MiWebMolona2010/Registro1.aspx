@@ -18,7 +18,8 @@
         <h2>Términos y Condiciones:</h2>
         <div id="separador"></div></br></br>
         <div id="texto_caja">wsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwssssssssswsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisi</div>
-        </br></br>
+        </br></br><asp:CheckBox ID="CheckBox1" runat="server" />Acepto los Términos </br>
+
             <div id="column2"><a runat="server" href="/Registro2.aspx" class="boton2">Siguiente</a></div>
         </div>
    
