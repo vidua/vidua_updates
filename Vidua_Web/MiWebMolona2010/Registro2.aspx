@@ -17,13 +17,13 @@
         <div id="caja2">
         </br></br>
                 <h6>Correo electrónico:</h6> 
-                <input type = "text" id = "correo" value = "" />
+                <asp:TextBox id="registro_correo" TextMode="SingleLine" Columns="30" runat="server" />
                 <h6>Nombre completo:</h6> 
-                <input type = "text" id = "nombre" value = "" />
+                <asp:TextBox id="registro_nombre" TextMode="SingleLine" Columns="30" runat="server" />
                 <h6>(Opcional) Url foto avatar:</h6> 
-                <input type = "text" id = "foto" value = "" />
+                <asp:TextBox id="registro_foto" TextMode="SingleLine" Columns="30" runat="server" />
         </br></br>
-            <div id="column2"><a href="/Registro3.aspx" class="boton2">Siguiente</a></div>
+            <div id="column2"><a runat="server" href="/Registro3.aspx" class="boton2">Siguiente</a></div>
         </div>
    
 

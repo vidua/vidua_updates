@@ -21,7 +21,7 @@
             <div id="texto_caja">Se ha enviado una copia de los datos a tu correo electrónico. Gracias por confiar en el servicio VIDUA</div>
         </br></br>
         </br></br>
-            <div id="column2"><a href="/IniciarSesion.aspx" class="boton2">Iniciar Sesión</a></div>
+            <div id="column2"><a runat="server" href="/IniciarSesion.aspx" class="boton2">Iniciar Sesión</a></div>
         </div>
    
 

@@ -27,26 +27,28 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+<form id="principal" runat="server"> 
 	<header>
 		<section id="logo">
 			<img src="images/Viduaicono.png" alt="" height="65px" width="116px" >
 		</section>
 		<section id="menu">
 			<nav>
-			  <a href="/Default.aspx"><h0>Inicio</h0></a> |
-  			  <a href="/Series.aspx"><h0>Series</h0></a> |
-   	          <a href="/Peliculas.aspx"><h0>Peliculas</h0></a> |
-   	          <a href="/Ofertas.aspx"><h0>Ofertas</h0></a> |
-              <a href="/Premium.aspx"><h0>Premium</h0></a> 
+			  <a runat="server" href="/Default.aspx"><h0>Inicio</h0></a> |
+  			  <a runat="server" href="/Series.aspx"><h0>Series</h0></a> |
+   	          <a runat="server" href="/Peliculas.aspx"><h0>Peliculas</h0></a> |
+   	          <a runat="server" href="/Ofertas.aspx"><h0>Ofertas</h0></a> |
+              <a runat="server" href="/Premium.aspx"><h0>Premium</h0></a> 
    	   </nav>
 		</section>
         <section id="barra_derecha">
-            <a href="/Carrito.aspx"><img src="images/carroon.png" width="45" height="45" alt="Carro"></a>
-            <a href="/Carrito.aspx"><div id="productos">&nbsp;&nbsp; 0 Productos</div></a>
-            <a href="/Registro1.aspx"><div id="registrarse"><h7>Regístrate</h7></div></a>
-            <a href="/IniciarSesion.aspx"><div id="conectarse"><h7>Conéctate</h7></div></a>
+            <a runat="server" href="/Carrito.aspx"><img src="images/carroon.png" width="45" height="45" alt="Carro"></a>
+            <a runat="server" href="/Carrito.aspx"><div id="productos">&nbsp;&nbsp; 0 Productos</div></a>
+            <a runat="server" href="/Registro1.aspx"><div id="registrarse"><h7>Regístrate</h7></div></a>
+            <a runat="server" href="/IniciarSesion.aspx"><div id="conectarse"><h7>Conéctate</h7></div></a>
+            
             <div id="buscar">
-                <input type = "text" id = "buscar" value = "Buscar..." />
+                <asp:TextBox id="buscar" TextMode="SingleLine" Columns="20" runat="server" />
                 <a href="/Buscar.aspx"><img src="images/buscar.png" width="20" height="20" alt="Buscar"></a>
             </div>
         </section>
@@ -97,5 +99,7 @@
         });
     });
     </script>
+    </form>
 </body>
+
 </html>

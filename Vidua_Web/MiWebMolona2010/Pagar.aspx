@@ -8,39 +8,39 @@
              <div id="separador"></div>
              <div id="linea_datos">
                 <h4>Nombre:</h4> 
-                <input type = "text" id = "Text0" value = "" />
+                <asp:TextBox id="nombre" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
                  <div id="linea_datos">
                 <h4>Apellidos:</h4> 
-                <input type = "text" id = "Text1" value = "" />
+                <asp:TextBox id="apellidos" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Compañia:</h4> 
-                <input type = "text" id = "Text2" value = "" />
+                <asp:TextBox id="companyia" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Dirección:</h4> 
-                <input type = "text" id = "Text3" value = "" />
+                <asp:TextBox id="direccion" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Dirección (Línea 2):</h4> 
-                <input type = "text" id = "Text4" value = "" />
+                <asp:TextBox id="direccion2" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Ciudad:</h4> 
-                <input type = "text" id = "Text5" value = "" />
+                <asp:TextBox id="ciudad" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Comunidad:</h4> 
-                <input type = "text" id = "Text6" value = "" />
+                <asp:TextBox id="comunidad" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Código Postal:</h4> 
-                <input type = "text" id = "Text7" value = "" />
+                <asp:TextBox id="codigo_postal" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
              <div id="linea_datos">
                 <h4>Teléfono:</h4> 
-                <input type = "text" id = "Text8" value = "" />
+                <asp:TextBox id="telefono" TextMode="SingleLine" Columns="30" runat="server" />
             </div>
                <div id="limpiar_buffer"></div>
                  </br>
@@ -51,10 +51,10 @@
 
                                <div id="container">
                                <div id="column2">
-                                   <img src="images/visa.JPG" width="230" height="120" />
+                                   <a runat="server" href="#"><img src="images/visa.JPG" width="230" height="120" /></a>
                                </div>
                                <div id="column2">
-                                    <img src="images/paypal.png" width="230" height="120" />
+                                    <a id="A1" runat="server" href="#"><img src="images/paypal.png" width="230" height="120" /></a>
                                </div>
 
                            </div>

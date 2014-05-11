@@ -12,9 +12,9 @@
              <h2>Mis Contenidos Adquiridos:</h2>
     <div id="separador"></div></br>
              <div id ="container">
-                 <div id="column3"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>La naranja Mecánica</h4><div id="boton_azul"><a href="#" class="boton2">Ver Película</a></div></br><div id="boton_azul"><a href="#" class="boton2">Descargar</a></div></div>
-                 <div id="column3"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>La naranja Mecánica</h4><div id="boton_azul"><a href="#" class="boton2">Ver Película</a></div></br><div id="boton_azul"><a href="#" class="boton2">Descargar</a></div></div>
-                 <div id="column3"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>La naranja Mecánica</h4><div id="boton_azul"><a href="#" class="boton2">Ver Película</a></div></br><div id="boton_azul"><a href="#" class="boton2">Descargar</a></div></div>
+                 <div id="column3"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>La naranja Mecánica</h4><div id="boton_azul"><a runat="server" href="#" class="boton2">Ver Película</a></div></br><div id="boton_azul"><a runat="server"  href="#" class="boton2">Descargar</a></div></div>
+                 <div id="column3"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>La naranja Mecánica</h4><div id="boton_azul"><a runat="server" href="#" class="boton2">Ver Película</a></div></br><div id="boton_azul"><a runat="server"  href="#" class="boton2">Descargar</a></div></div>
+                 <div id="column3"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>La naranja Mecánica</h4><div id="boton_azul"><a runat="server" href="#" class="boton2">Ver Película</a></div></br><div id="boton_azul"><a runat="server"  href="#" class="boton2">Descargar</a></div></div>
              </div>
     </br></br>
     <div id="separador"></div></br>

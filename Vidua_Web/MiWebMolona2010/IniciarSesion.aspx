@@ -13,11 +13,11 @@
         <div id="separador"></div></br></br>
                 <div id="datos_inicio">
                 <h6>Correo electrónico:</h6> 
-                <input type = "text" id = "inicio_correo" value = "" />
+                <asp:TextBox id="correo" TextMode="SingleLine" Columns="30" runat="server" />
                 <h6>Contraseña:</h6> 
-                <input type = "text" id = "inicio_contrasenya" value = "" />
+                <asp:TextBox id="contrasenya" TextMode="SingleLine" Columns="20" runat="server" />
              </br></br>
-            <div id="column2"><a href="/PanelUsuario.aspx" class="boton2">Iniciar Sesión</a></div>
+            <div id="column2"><a runat="server" href="/PanelUsuario.aspx" class="boton2">Iniciar Sesión</a></div>
         </div>
         </div>
   

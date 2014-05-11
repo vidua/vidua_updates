@@ -46,8 +46,8 @@ conducta antisocial..</span>  </br>
                                <div id="column2">
                                    <h3>Precio : 3,00 €</h3>
                                </div>
-                               <div id="column2">
-                                    <a href="#" class="boton2"><b>Comprar esta Película </b></a>
+                               <div id="column2">
+                                    <a runat="server" href="#" class="boton2"><b>Comprar esta Película </b></a>
                                </div>
 
                            </div>
@@ -71,8 +71,8 @@ conducta antisocial..</span>  </br>
                    <h2>Comentarios:</h2>
                    <div id="separador"></div></br>
 
-                          <input type = "text" id = "input_comentario" value = "Comentar..."/>
-                          <div id="boton_comentar"><a href="#" class="boton2">Comentar</a></div>
+                          <asp:TextBox id="comentario_usuario" TextMode="SingleLine" Columns="30" Rows="4" runat="server" />
+                          <div id="boton_comentar"><a runat="server" href="#" class="boton2">Comentar</a></div>
                          </br></br>
 
                          <div id="div_comentario_usuario">

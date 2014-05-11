@@ -19,7 +19,7 @@
         <div id="separador"></div></br></br>
         <div id="texto_caja">wsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwssssssssswsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisiwsssssssssssssssssssssssssssssssssssssssssssssiiiisisisisissisisisiisisisisisisisiisisissisi</div>
         </br></br>
-            <div id="column2"><a href="/Registro2.aspx" class="boton2">Siguiente</a></div>
+            <div id="column2"><a runat="server" href="/Registro2.aspx" class="boton2">Siguiente</a></div>
         </div>
    
 

@@ -11,12 +11,12 @@
         <div id="contenido_fila"><h0>La Naranja Mecánica</h0></br></div>
         <div id="precio_fila"><h4>3,00 Euros</h4></div>
     </div></a>
-    <a href="/VerPelicula.aspx"><div id="fila">
+    <a runat="server" href="/VerPelicula.aspx"><div id="fila">
         <img src="images/caratula.jpg" width="76" height="112" alt="Nombre_Pelicula">
         <div id="contenido_fila"><h0>Mi película favorita</h0></div>
         <div id="precio_fila"><h4>3,00 Euros</h4></div>
         </div></a>
-    <a href="/VerPelicula.aspx"><div id="fila">
+    <a runat="server" href="/VerPelicula.aspx"><div id="fila">
         <img src="images/caratula.jpg" width="76" height="112" alt="Nombre_Pelicula">
         <div id="contenido_fila"><h0>¿Cansado de la Naranja Mecánica?</h0></div>
         <div id="precio_fila"><h4>3,00 Euros</h4></div>

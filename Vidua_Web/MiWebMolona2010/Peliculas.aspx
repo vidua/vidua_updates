@@ -8,32 +8,32 @@
               <div id="separador"></div>
     </br></br>
              <div id ="container">
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
              </div>
              <div id ="container">
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
              </div>
                  <div id ="container">
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
              </div>
                  <div id ="container">
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
-                 <div id="column"><a href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
+                 <div id="column"><a runat="server" href="#"><img src="images/caratula.jpg" width="95" height="140" alt="Nombre_Pelicula"><h4>Nombre_Película</h4></a></div>
              </div>
 
 
