@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MiPrimeraWebBonica.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Montserrat' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="banner/css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="banner/themes/light/light.css" type="text/css" media="screen" />
+    <style>
+        .slider-wrapper{
+            width: 600px;
+            margin-left: 50px;
+        }
+        ::-webkit-scrollbar {
+            height:12px;
+            background: #474747;}
+        ::-webkit-scrollbar-thumb {
+            background: url(images/sroll.png) repeat top center;}
+    </style>
+    
+</script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<header>
+		<section id="logo">
+			<img src="images/Viduaicono.png" alt="" height="65px" width="116px" >
+		</section>
+		<section id="menu">
+			<nav>
+			  <a href="/Default.aspx"><h0>Inicio</h0></a> |
+  			  <a href="/Series.aspx"><h0>Series</h0></a> |
+   	          <a href="/Peliculas.aspx"><h0>Peliculas</h0></a> |
+   	          <a href="/Ofertas.aspx"><h0>Ofertas</h0></a> |
+              <a href="/Premium.aspx"><h0>Premium</h0></a> 
+   	   </nav>
+		</section>
+        <section id="barra_derecha">
+            <a href="/Carrito.aspx"><img src="images/carroon.png" width="45" height="45" alt="Carro"></a>
+            <a href="/Carrito.aspx"><div id="productos">&nbsp;&nbsp; 0 Productos</div></a>
+            <a href="/Registro1.aspx"><div id="registrarse"><h7>Regístrate</h7></div></a>
+            <a href="/IniciarSesion.aspx"><div id="conectarse"><h7>Conéctate</h7></div></a>
+            <div id="buscar">
+                <input type = "text" id = "buscar" value = "Buscar..." />
+                <a href="/Buscar.aspx"><img src="images/buscar.png" width="20" height="20" alt="Buscar"></a>
+            </div>
+        </section>
+	</header>
+    
+	<main>
+         <div id="contenido">
+                 </br>
+
+    <div class="slider-wrapper theme-light">
+        <div id="slider" class="nivoSlider">
+            <img src="banner/img/slide1.jpg" title="<p>Bienvenido a Vidua</p>" />
+            <img src="banner/img/slide2.jpg" title="<p>FOTO2</p>"/>
+            <img src="banner/img/slide3.jpg" title="<p>FOTO3</p>"/>
+            <img src="banner/img/slide4.jpg" title="<p>FOTO4</p>"/>
+        </div>
+    </div>
+
+             <div id="parte_arriba">
+                    <img src="images/zapatillas.gif" width="230" height="180">
+                    <img src="images/abrigo.gif" width="230" height="180">
+            </div>
+    <div id="limpiar_buffer"></div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            
+	</main>
+    
+    <script src="banner/js/jquery.min.js" type="text/javascript"></script>
+    <script src="banner/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(window).load(function(){
+        $('#slider').nivoSlider({
+            effect: 'fade',
+            slices: 15,
+            boxCols: 8,
+            boxRows: 4,
+            animSpeed: 500,
+            pauseTime: 3000,
+            startSlide: 0,
+            directionNav: true,
+            controlNav: true,
+            controlNavThumbs: false,
+            pauseOnHover: true,
+            manualAdvance: false,
+            prevText: 'Prev',
+            nextText: 'Next',
+            randomStart: false,
+        });
+    });
+    </script>
+</body>
+</html>

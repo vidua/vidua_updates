@@ -1,0 +1,712 @@
+﻿	::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+.slider-wrapper 
+{
+width: 40%;
+margin-left: 50px;
+float: left;
+z-index:1;
+}
+
+
+ /**BOTON CSS *******************************************************/
+
+.boton2 {
+       background-color:#268bba;
+        padding:10px;
+        position:relative;
+        font-family: 'Open Sans', sans-serif;
+        font-size:12px;
+        text-decoration:none;
+        color:#fff;
+        background-image: linear-gradient(bottom, rgb(100,170,30) 0%, rgb(129,212,51) 100%);
+        box-shadow: inset 0px 1px 0px #7fcff1, 0px 6px 0px #0d446f;
+        border-radius: 5px;
+        z-index:1;
+}
+ 
+.boton2:active {
+        top:7px;
+        background-image: linear-gradient(bottom, rgb(30,139,170) 100%, rgb(51,134,212) 0%);
+        box-shadow: inset 0px 1px 0px #7fcff1, inset 0px -1px 0px #0d446f;
+        color: #156785;
+        text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+        background: rgb(44,160,202);
+        z-index:30;
+}
+
+/********************************************************************************/
+    
+/****APARIENCIA AUXILIAR, SECCIONES DE DECORACIÓN*/
+#cabecera_perfil_usuario
+{
+    margin-left:4%;
+    float:left;
+}
+#foto_usuario
+{
+    float:left;
+    width:100px;
+    height:100px;
+    background-color:rgb(196, 196, 196);
+    border-radius:5px;
+    box-shadow: 2px 2px 17px #888888;
+}
+#perfil_nombre_usuario
+{
+    float: left;
+}
+#perfil_nombre_usuario h3
+{
+     font-size: 24px;
+     margin-left: 6%;
+}
+#perfil_nombre_usuario h6 
+{
+    margin-top: -26px;
+    margin-left: 6%;
+    color: gray;
+}
+#foto_usuario img
+{
+     width: 90px;
+     height: 90px;
+     margin-left: 6px;
+     margin-top: 5px;
+     border-radius:5px;
+}
+
+#opacidad
+{
+    opacity: 0.4;
+}
+#linea_datos
+{
+    float:left;
+    width: 80%;
+    margin-left:8%;
+}
+    #linea_datos h4
+    {
+        float:left;
+        margin-left: 4%;
+    }
+    #linea_datos input
+    {
+        float: left;
+        margin-left: 4%;
+        margin-top: 20px;
+    }
+#banner
+{
+    height: 100%;
+    width: 70%;;
+    float: left;
+    color:black;
+}
+#publicidad
+{
+    height: 100%;
+    width: 30%;
+    color:black;
+}
+#parte_arriba
+{
+    height: 250px;
+    width: 100%;
+}
+#parte_arriba img
+{
+     margin-left: 4%;
+     width:170px;
+     height:150px;
+}
+#barra_derecha
+{
+    position: fixed;
+    margin-left: -500px;
+    float:left;
+    margin-top: -4px;
+}
+#barra_derecha img
+{
+    float:left;
+}
+#productos
+{
+    float:left;
+    margin-top: 15px;
+    margin-left: -12px;
+
+}
+#registrarse
+{
+position: fixed;
+color: white;
+float: left;
+margin-left: 137px;
+margin-top: 14px;
+font-size: 16px;
+}
+#conectarse
+{
+position: fixed;
+color: white;
+float: left;
+margin-left: 227px;
+margin-top: 14px;
+font-size: 16px;
+}
+#separador
+{
+	border-bottom: 2px solid #1C58B8;
+	width: 91%;
+	margin-left: 4%;
+    margin-top: -12px;
+}
+#limpiar_buffer
+{
+    clear: both;
+}
+#buscar {
+position: fixed;
+margin-left: 159px;
+margin-top: 37px;
+}
+#buscar input {
+background-color: rgb(48, 139, 255);
+color: white;
+margin-top: -24px;
+}
+#buscar img {
+margin-left: 318px;
+margin-top: -23px;
+}
+#pelicula
+{
+    width: 60%;
+    height: 60%;
+}
+#pelicula img
+{
+    box-shadow: 0px 0px 30px #5C5757;
+    margin-left: 8%;
+    float:left;
+}
+#datos_pelicula
+{
+    width:100%;
+    height:100%;
+    margin-left: 52%;
+    text-align:left;
+}
+iframe
+{
+    margin-left: 20%;
+    height: 50%;
+    width: 60%;
+}
+#div_puntuacion
+{
+    margin-left: 5%;
+    width: 27%;
+    float: left;
+    height: 100%;
+    background-color:white;
+}
+#div_puntuacion h3
+{
+    margin-left: 34%;
+}
+#div_comentarios
+{
+    margin-left:2%;
+    width: 60%;
+    float: left;
+    background-color:white;
+}
+    #div_comentarios input
+    {
+        border:1px solid black;
+        border-radius:5px;
+        background-color:white;
+        width:83%;
+        height:80px;
+        margin-left:8%;
+    }
+#div_comentario_usuario
+{
+    background-color:rgb(232, 247, 253);
+    width:80%;
+    height: 80px;
+    border:1px solid black;
+    border-radius:5px;
+    margin-left: 15%;
+    margin-top:15px;
+}
+#boton_comentar
+{
+    margin-left: 79%;
+    margin-top: 15px;
+    width:220px;
+}
+#div_comentario_usuario img
+{
+    float:left;
+    margin-top: 20px;
+    margin-left: -76px;
+    box-shadow: 0px 3px 3px #5C5757;
+}
+#puntuacion_deun_usuario 
+{
+margin-left: 32%;
+margin-top: -19px;
+float: left;
+color: black;
+font-size: 24px;
+position: absolute;
+}
+#div_comentario_usuario h6
+{
+    float:left;
+    margin-top: -23px;
+}
+#div_comentario h2
+{
+    margin-left:10px;
+}
+#total_carrito
+{
+    float:left;
+}
+#total_carrito h2
+{
+    font-size:18px;
+}
+#botones 
+{
+    margin-right: 5%;
+    text-align: right;
+}
+#botones a
+{
+    margin-left: 4%;
+}
+#boton_azul
+{
+margin-top: 42px;
+}
+/*************************************************************************/
+/* Sistema mostrado carátulas (Muestra Resultados) */
+
+#container 
+{
+display: table;
+width: 94%;
+margin-left: 3%;
+}
+#column3 /*AMPLIACIÓN CON NUEVO EFECTO*/
+{
+    display: table-cell;
+    color: black;
+    text-align: center;
+    margin-left:3%;
+    padding: 10px;
+    width:200px;
+    max-width:200px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#column3 a
+{
+     margin-top: 10px;
+}
+#column2 /*SIN EFECTO AZUL*/
+{
+    display: table-cell;
+    color: black;
+    text-align: center;
+    margin-left:3%;
+    padding: 10px;
+    width:200px;
+    max-width:200px;
+}
+#column /*CON EFECTO AZUL AL PASAR POR ENCIMA*/
+{
+    display: table-cell;
+    color: black;
+    text-align: center;
+    margin-left:3%;
+    padding: 10px;
+    width:200px;
+    max-width:200px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#column:hover
+{
+    background-color: rgb(120, 177, 250);
+    margin-left: 12%;
+    padding: 10px;
+    ´color:white;
+}
+#fila
+{
+    float:left;
+    color: black;
+    text-align: center;
+    margin-left: 12%;
+    padding: 10px;
+    width: 88%;
+}
+#fila img
+{
+      float:left;
+      box-shadow: 8px 3px 25px #5C5757;
+      width: 76px;
+      height:112px;
+      margin-left:2%;
+}
+#contenido_fila
+{
+    width:50%;
+    float:left;
+    text-align: left;
+    margin-top: 6%;
+}
+#contenido_fila h0
+{
+     color: rgb(66, 66, 66);
+     margin-left:4%;
+}
+#precio_fila
+{
+    float: left;
+}
+#precio_fila h4
+{
+    margin-left: 0px;
+    margin-top: 50%;
+    font-size:19px;
+}
+#fila_borrar
+{
+    float: left;
+}
+#fila_borrar img
+{
+    box-shadow:0px 0px 0px white;
+    width:50px;
+    height:60px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+column h4
+{
+   text-shadow: 2px 2px #ff0000;
+}
+
+    #column img
+    {
+        box-shadow: 8px 3px 25px #5C5757;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        width: 95px;
+        height:140px;
+    }
+    #column3 img
+    {
+        box-shadow: 8px 3px 25px #5C5757;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        width: 95px;
+        height:140px;
+    }
+
+    #column img:hover
+    {
+        width:99.75px;
+        height:149.4px;
+    }
+
+#column2 h2
+{
+    font-size: 22px;
+}
+#column2 h4
+{
+    font-size: 22px;
+}
+#fila:hover
+{
+    background-color:rgb(120, 177, 250);
+}
+#titulo_sombreado h2
+{
+    font-size: 35px;
+    text-shadow: 0px 3px 2px rgba(122, 168, 150, 1);
+}
+#caja_cuadrada
+{
+width: 495px;
+height: 495px;
+    border: 2px solid black;
+    margin-left: 25%;
+    float:left;
+}
+#caja1
+{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+#caja1 img
+{
+    margin-left: 24%;
+    margin-top: 60px;
+}
+#caja2
+{
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+#caja2 column2
+{
+    width:70px;
+    color:white;
+    margin-top:20px;
+    margin-left:20px;
+}
+#caja2 h6, input
+{
+    margin-left: 4%;
+}
+#correcto
+{
+   margin-top: -142px;
+}
+
+
+
+/***********************************************************************/
+
+/*****ESTRUCTURA BASE DE LA WEB****************************/
+
+    #contenido
+    {
+        width: 75%;
+        height: 100%;
+        margin-left: 12%;
+        background-color:white;
+        box-shadow: 0px 10px 40px #999;
+        float: left;
+        margin-top: 30px;
+        min-width:824px;
+    }
+	header 
+	{	
+    box-shadow: 5px 0px 5px #5C5757;
+	min-width: 920px;
+	border-bottom: 1px solid #D0D0D0;
+	display:table;
+	width:100%;
+	background-color: #1C58B8;
+	position:fixed;
+    height: 38px;
+    z-index:100;
+
+	}
+    #logo img
+    {
+        position:fixed;
+        margin-top: -16px;
+    }
+	#menu
+	{
+	   display:table-cell;
+	}
+    #menu nav
+    {
+        margin-left: 12%;
+        margin-top: 9px;
+     }
+	#logo
+	{
+		display:table-cell;
+	}
+	html 
+	{
+	height: 100%;
+	}
+	body 
+	{
+        background-color:rgb(228, 226, 226);
+		/*background: url('#') no-repeat center left;
+		background-size: 100% 100%;*/
+		width: 100%;
+		height: 100%;
+		/* min-height: 100%; */
+		min-width: 920px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: white;
+		margin:0px;
+	}
+	
+
+	a {
+		color: white;
+	}
+	a:link   
+	{   
+	 text-decoration:none;   
+	}   
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+
+	footer{
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		background-color: #19191A;
+		height: 60px;
+		position:fixed;
+		margin-bottom: 0px;
+		width: 100%;
+	}
+	main
+	{
+		display: block
+	}
+	main p
+	{
+		margin-left: 2%;
+		color:white;
+		font-size:30px;		
+	}
+	
+	#menu nav a
+	{
+		margin: 5px;
+		padding: 14px 15px 10px 15px;
+	}
+	#menu nav a:hover
+	{
+        text-decoration:underline;
+	}
+    #datos_inicio
+    {
+        margin-left: 30%;
+    }
+/**********************************************/
+/******TIPOS DETEXTO********/
+
+   h1 {
+		color: #0070FF;
+		background-color: transparent;
+		font-size: 27px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+    h2
+    {
+     color: #1C58B8;
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 15px;
+     margin-left:4%;
+    }
+
+#respuesta
+{
+    color: black;
+    font-size: 11px;
+    font-style: normal;
+    font-family: 'Noto Sans', sans-serif;
+}
+#pregunta
+{
+     color: #1C58B8;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+     margin-left:4%;
+}
+h3 /* Utilizado para el precio y la puntuacion de cada pelicula*/
+{
+    color: rgb(66, 66, 66);
+    font-family: 'Noto Sans', sans-serif;
+    font-size:32px;
+    line-height: 30px;
+}
+/**h4 muestra nombre de la peli cuando hacemos consultas con caratula en filas*/
+h4 
+{
+color: rgb(66, 66, 66);
+font-family: 'Noto Sans', sans-serif;
+font-size: 15px;
+text-shadow: 2px 1px 1px #BEB6B6;
+}
+h5
+{
+    color: rgb(82, 172, 255);
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 4%;
+    margin-top: 3px;
+}
+h6
+{
+    color: rgb(66, 66, 66);
+    font-family: 'Noto Sans', sans-serif;
+    font-size:11px;
+}
+h0   /*Formato de texto de la barra azul*/
+{
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+		background-color: transparent;
+		font-size:16px;
+}
+h7  /*Formato de texto de la barra azul*/
+{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+		background-color: transparent;
+		font-size:15px;
+}
+h7:hover
+{
+        text-decoration: underline;
+}
+#texto_caja 
+{
+color: rgb(66, 66, 66);
+font-family: 'Noto Sans', sans-serif;
+font-size: 13px;
+word-wrap: break-word;
+max-width: 300px;
+width: 300px;
+margin-left: 15px;
+}
+
+/**********************************
